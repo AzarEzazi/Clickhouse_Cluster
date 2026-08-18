@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- ON CLUSTER DDL coordination path -->
+<clickhouse>
+    <distributed_ddl>
+        <path>/clickhouse/task_queue/ddl</path>
+    </distributed_ddl>
+</clickhouse>

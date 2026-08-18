@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Keeper CLIENT — where clickhouse-server finds the Keeper quorum -->
+<clickhouse>
+    <zookeeper>
+        <node>
+            <host>192.168.56.129</host>
+            <port>9181</port>
+        </node>
+        <node>
+            <host>192.168.56.137</host>
+            <port>9181</port>
+        </node>
+        <node>
+            <host>192.168.56.138</host>
+            <port>9181</port>
+        </node>
+        <session_timeout_ms>30000</session_timeout_ms>
+        <operation_timeout_ms>10000</operation_timeout_ms>
+    </zookeeper>
+</clickhouse>

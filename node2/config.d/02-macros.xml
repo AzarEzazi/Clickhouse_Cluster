@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Node2 identity -->
+<clickhouse>
+    <macros>
+        <cluster>cluster_1S_2R</cluster>
+        <shard>01</shard>
+        <replica>replica_02</replica>
+    </macros>
+</clickhouse>

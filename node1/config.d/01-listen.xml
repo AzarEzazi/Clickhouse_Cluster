@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Network listen + interserver identity (Node1) -->
+<clickhouse>
+    <listen_host>0.0.0.0</listen_host>
+    <interserver_http_host>192.168.56.129</interserver_http_host>
+    <interserver_http_port>9009</interserver_http_port>
+</clickhouse>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Identical topology file to Node1 -->
+<clickhouse>
+    <remote_servers replace="true">
+        <cluster_1S_2R>
+            <shard>
+                <internal_replication>true</internal_replication>
+                <replica>
+                    <host>192.168.56.129</host>
+                    <port>9000</port>
+                    <user>default</user>
+                    <password>admin123</password>
+                </replica>
+                <replica>
+                    <host>192.168.56.137</host>
+                    <port>9000</port>
+                    <user>default</user>
+                    <password>admin123</password>
+                </replica>
+            </shard>
+        </cluster_1S_2R>
+    </remote_servers>
+</clickhouse>
